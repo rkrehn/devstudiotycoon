@@ -26,4 +26,6 @@ Unlike other software simulations, Dev Studio Tycoon is focused on the most diff
 * No end game or year, but there are constant challenges.
 * Moddability :)
 
+This game was written in Visual Studio .NET Express 2010.
+
 It's fully playable with some minor bugs, but feel free to donate at https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SB7CFNDSBHEFN
