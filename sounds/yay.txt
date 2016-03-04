@@ -1,0 +1,7 @@
+My.Computer.Audio.Play(My.Resources.Waterfall, _
+        AudioPlayMode.Background)
+		
+Sub PlayBackgroundSoundFile()
+    My.Computer.Audio.Play("C:\Waterfall.wav", _
+        AudioPlayMode.Background)
+End Sub
