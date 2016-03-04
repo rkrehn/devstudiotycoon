@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Simple.Wpf.Themes</name>
+    </assembly>
+    <members>
+        <member name="T:Simple.Wpf.Themes.Theme">
+            <summary>
+            Defines a theme as a Name &amp; a URI to the ResourceDictionary
+            </summary>
+        </member>
+        <member name="M:Simple.Wpf.Themes.Theme.#ctor(System.String,System.Uri)">
+            <summary>
+            Create a theme class
+            </summary>
+            <param name="name">The name of theme.</param>
+            <param name="uri">The URI of the ResourceDictionary.</param>
+        </member>
+        <member name="M:Simple.Wpf.Themes.Theme.Equals(Simple.Wpf.Themes.Theme)">
+            <summary>
+            Determines whether two themes instances are equal.
+            </summary>
+            <param name="other">The theme to compare with the current theme.</param>
+            <returns>true if the specified theme is equal to the current theme; otherwise, false.</returns>
+        </member>
+        <member name="M:Simple.Wpf.Themes.Theme.Equals(System.Object)">
+            <summary>
+            Determines whether two object instances are equal.
+            </summary>
+            <param name="obj">The object to compare with the current theme.</param>
+            <returns>true if the specified object is equal to the current theme; otherwise, false.</returns>
+        </member>
+        <member name="M:Simple.Wpf.Themes.Theme.GetHashCode">
+            <summary>
+            Serves as the default hash function.
+            </summary>
+            <returns>A hash code for the current theme.</returns>
+        </member>
+        <member name="M:Simple.Wpf.Themes.Theme.op_Equality(Simple.Wpf.Themes.Theme,Simple.Wpf.Themes.Theme)">
+            <summary>
+            The equality operator (==) returns true if its operands are equal, false otherwise.
+            </summary>
+            <param name="left"></param>
+            <param name="right"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Simple.Wpf.Themes.Theme.op_Inequality(Simple.Wpf.Themes.Theme,Simple.Wpf.Themes.Theme)">
+            <summary>
+            The inequality operator (!=) returns false if its operands are equal, true otherwise.
+            </summary>
+            <param name="left"></param>
+            <param name="right"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Simple.Wpf.Themes.Theme.Name">
+            <summary>
+            The humna readable name of the theme
+            </summary>
+        </member>
+        <member name="P:Simple.Wpf.Themes.Theme.Uri">
+            <summary>
+            The URI of the theme ResourceDictionary
+            </summary>
+        </member>
+        <member name="P:Simple.Wpf.Themes.Theme.NameComparer">
+            <summary>
+            Theme equality comparer/
+            </summary>
+        </member>
+        <member name="T:Simple.Wpf.Themes.ThemeManager">
+            <summary>
+            Theme manager for an WPF application.
+            </summary>
+        </member>
+        <member name="M:Simple.Wpf.Themes.ThemeManager.ApplyTheme(Simple.Wpf.Themes.Theme)">
+            <summary>
+            Applies a theme to the application.
+            </summary>
+            <param name="theme">The theme to be applied.</param>
+        </member>
+        <member name="M:Simple.Wpf.Themes.ThemeManager.ApplyTheme(System.Windows.Controls.ContentControl,Simple.Wpf.Themes.Theme)">
+            <summary>
+            Applies a theme to a content control
+            </summary>
+            <param name="control">The control the theme will be applied to.</param>
+            <param name="theme">The theme to be applied</param>
+        </member>
+        <member name="P:Simple.Wpf.Themes.ThemeManager.AvailableThemes">
+            <summary>
+            The available themes to be applied to a content control or the whole application.
+            </summary>
+        </member>
+        <member name="T:Simple.Wpf.Themes.Themes">
+            <summary>
+            The UI control for binding &amp; selecting a theme in an application.
+            </summary>
+            <summary>
+            Themes
+            </summary>
+        </member>
+        <member name="F:Simple.Wpf.Themes.Themes.ItemsSourceProperty">
+            <summary>
+            The items to be applied to the theme manager.
+            </summary>
+        </member>
+        <member name="F:Simple.Wpf.Themes.Themes.SelectedItemProperty">
+            <summary>
+            The currently selected theme.
+            </summary>
+        </member>
+        <member name="F:Simple.Wpf.Themes.Themes.ScopeProperty">
+            <summary>
+            The scope the theme will be applied too.
+            </summary>
+        </member>
+        <member name="M:Simple.Wpf.Themes.Themes.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Simple.Wpf.Themes.Themes.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:Simple.Wpf.Themes.Themes.ItemsSource">
+            <summary>
+            The bound items to the themes control, this will be of type Theme.
+            </summary>
+        </member>
+        <member name="P:Simple.Wpf.Themes.Themes.SelectedItem">
+            <summary>
+            The currently selected theme.
+            </summary>
+        </member>
+        <member name="P:Simple.Wpf.Themes.Themes.Scope">
+            <summary>
+            The scope the selected theme will be applied too, this could be the application or a content control.
+            </summary>
+        </member>
+        <member name="T:Simple.Wpf.Themes.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Simple.Wpf.Themes.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Simple.Wpf.Themes.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

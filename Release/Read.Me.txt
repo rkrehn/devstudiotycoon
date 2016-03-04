@@ -1,0 +1,45 @@
+*** This is outdated as of version 0.5
+
+Anyone can modify a few settings in the game. All list files are randomly generated, but more can be added or removed if wanted.
+
+Game Studio Tycoon.exe.config:
+
+	PreProduction - Cost of development points to complete PreProduction stage
+	DevPoints - Cost of development points impacting per person to determine game rating
+	RatingPoints - Cost of impact per person to determine game rating
+	Timer - How fast an hour is in miliseconds (1000 is default for a second)
+	EnginePts - Percent of engine impact on development
+	SpecMin - Minimum randomly generated points towards each speciality (Artist, Programmer, etc.)
+	SpecMax - Maximum randomly generated points towards each speciality (Artist, Programmer, etc.)
+	StageMin - Minimum randomly generated points towards each stage (ex: Level Design impacts Gameplay)
+	StageMax - Maximum randomly generated points towards each stage (ex: Level Design impacts Gameplay)
+	Exp* - Cost of monthly expenses for AI and user based on decade
+	MinIncome_AI - Minimum percent (in decimal form) to determine expenses each quarter based on quarterly income
+	MaxIncome_AI - Maximum percent (in decimal form) to determine expenses each quarter based on 		quarterly income
+	StressReturn - When an employee stressed out returns from PTO based on their maximum stress level %
+	PTORequest - When an employee starts requesting PTO based on their maximum stress level %
+	RandomEvents - Frequency of random events
+	TimerFast - Speed on the game if it's on fast mode (500 is default for half a second)
+	
+/Data folder
+	
+	List of company names with the first list naming the company and the second list adding a suffix (like Krehn + Solutions = Krehn Solutions)
+		CompanyNames1.lst
+		CompanyNames2.lst
+	
+	List of console names with the first list naming the console and the second list adding a suffix (like play + station = playstation).
+		ConsoleNames1.lst
+		ConsoleNames2.lst
+	
+	List of engine names:
+		Engine.lst
+	
+	The following files create names:
+		Females.lst - Most 100 common female first names
+		Males.lst - Most 100 common male first names
+		LastNames.lst - Most 100 common last names
+	
+	The following files generate game names. Essentially, GameNames1 is used first with a chance the second file will be included. Sometimes the third will be created. You'll notice some names have ^ in them. This prevents the name getting duplicated or awkward like Football Softball Plus.
+		GameNames1.lst
+		GameNames2.lst
+		GameNames3.lst

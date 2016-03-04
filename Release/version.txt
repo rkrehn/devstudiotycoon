@@ -1,0 +1,202 @@
+﻿v0.8.1.0
+- Added: Corrupt mode – enabling this will not allow you to load a game when you go bankrupt
+- Added: Tutorial
+
+v0.8.0.2
+- Added: Player can now market published games
+- Added: Options menu added
+- Added: Penalties will no longer cancel and incur a penalty when the deadline isn’t met. You will still be able to finish the contract, but you will get a discounted price. This will help the player figure out what kind of contracts they can accept without causing too much burden.
+- Updated: How frequently companies will self-publish is moddable
+- Updated direction calculations
+- Fixed: Bug with viewing different contracts/publishers/buyouts
+- Fixed: Expenses now display expected expenses for month. Also fixes AI expenses
+- Fixed: Story was being reset after direction in Art Production
+- Fixed: Bug with maximum contracts/publishers/buyouts
+- Built script for publishing and marketing games
+
+v0.8.0.1
+- Added: More random events
+- Added: New challenge – hacked
+- Fixed: Expos are now simulated
+- Fixed: All forms now close when game is over
+- Fixed: Bug where random events would give multiple success rates (missing 70-90)
+- Fixed: Console Full Schedule now displayed
+- Fixed: When building a new game, engines and consoles will display when being selected
+- Fixed: Direction stage calculations
+
+v0.8.0.0
+- New: Max staff is now 20
+- Added: Employees will quit if they reach a threshold of pay below average
+
+Fixed:
+- Fixed: Bug where publisher was not added when developing game
+- Fixed: Bug in Art Production stage and story points fell
+- Fixed: Bug when setting up progress bars if they’re over maximum
+- Fixed: Bug where the progress gained in setting the lead for each part wasn’t getting added properly
+- Fixed: Project management bug for engine creation that caused everything to go havoc
+- Fixed: Bug where engine or console development wasn’t displaying direction setting properly
+- Fixed: Game freezing when determining if a company exists already
+
+Balancing:
+- Balancing: Contracts are too easy with little reward
+- Adjusted: Player gets salary updates so they don’t get stressed out
+- Balancing: Employees returning from PTO
+- Balancing: Console development
+- Balancing: Direction mathematics (Basically, the equation changed from the product of current development progress and direction bonus based on position per stage -> product of lead’s skill and the whole team and then the product of that if there’s a direction bonus and then added to the current development progress)
+
+
+v0.7.7.2
+- Fixed: Contracts should no longer error out when selecting the last one
+- Fixed: Consoles were creating an error when a company went bankrupt and the console was still for sale
+
+v0.7.7.1
+- New feature: Updater now functional
+- Fixed: Starting a new game 
+
+v0.7.7.0
+New features: 
+- Ability to create consoles
+- Consoles now have random events
+- Stage direction now includes console
+- Player now gets paid for consoles
+- Player can now change game name at release
+- Player can now market console
+- Expos can now advertise both consoles and games
+- AI companies will now publish themselves if they have enough assets
+- AI will now announce a console months in advance before releasing
+- Engines and consoles are now included in expo and marketing calculations
+- Engines and consoles can now be marketed
+
+Fixes:
+- Fixed: extra stock code loading wrong information
+- Fixed: saving/loading console data
+- Fixed: AI console sales were getting full price rather than difference of cost and price
+- Fixed: New game clears console and banking information
+- Fixed: Console sales, income, etc. never referred to right company
+
+Balancing:
+- Adjusted: PC sales so they’re not so they’re dominate past 1990
+
+v0.7.6.1
+- Fixed issue with new game/engine charts
+
+v0.7.6.0
+- Stock UI is complete
+- User may now be publisher
+- User now gets income from publishing
+- AI gets income from publishing other developer games
+- Added publisher array to company data
+- Generated companies will now publish with a pre-existing company
+
+v0.7.5.0
+- Made marketing factors editable, also made some adjustments
+- Fixed: a bug where new hires weren’t showing for recent addition
+- Adjusted: development stages influence 
+- New feature: simulation for years up to start date
+- Adjusted: Development from EXP change
+- Adjusted: Prototype development
+
+v0.7.4.0
+- Updated Awards screen
+- Fixed bug where weekly sales earnings were not calculating correctly
+- Fixed: New Game setup
+- Adjustment: Marketing
+- Fixed: Removed most duplicated games
+- Various bug fixes
+- It costs $1,000 to look at candidates and now $5,000 to hire them
+- Adjusted game awards screen
+- Adjusted hire screen
+- Added staff screen
+- Included investments in the challenge frequency
+- Staff screen is functional - You can give raises and terminate employment
+- Reduced how often employees gain EXP
+- Adventure games were not getting a rating for AI or the player, this has been addressed
+- You can now have up to 10 employees
+- Re-adjusted PTO stress reduction
+- Added development stage influence
+
+v0.7.3.0
+- Implemented new theme
+
+v0.7.2.0
+- Worked on stocks
+- Stocks will be based on percentage not number (i.e. 80 = 80%, not 80 stocks)
+- Fixed: Bug where investments didn’t get removed
+- Fixed: Reputation being added/subtracted when a game is cancelled 
+
+
+v0.7.1.0
+- Moddable: Employee stress levels
+- New feature: challenge – highly successful businesses will begin to suffer detrimental or positive effects 
+- New feature: challenges – highly successful business may have sales negatively effected
+- Moddable: Frequency of challenges based on cash amount
+- Fixed: Marketing bugs
+- Rebalancing: Employee stress
+- Fixed: A minor issue when AI games were created they were all being rated the same as an action game
+- Fixed: Bug creating duplicate games
+- Worked on rebuilding the expo visitor generator. 
+- Balanced: Expo visitors
+- Fixed: Bug where a game in development didn’t have a console saved
+- Made Trends/Reputation easy viewable
+- Fixed: Bug with selling games
+- Added pop-up for weekly sales
+- Provided pop-up for production progress bars to help player determine when their deadlines are
+- Companies will now go public when they have a lot of money (stocks)
+- Player can view stock options
+
+
+v0.7.0.0
+- End game added
+- Fixed: Bug that prevent the main screen from loading
+
+v0.6.2.5
+- Finished year end awards
+- Game of the year games get re-released
+- Fixed: Various issues resuming  games with an engine in progress
+- Fixed: Various issues resuming games with a game in progress
+- Fixed: Engine tech/usability rating for player''s engines
+- Fixed: Bug when building an engine the third console was hidden
+- Fixed: Bug when engine wasn''t building at all
+- Balancing: Engine development
+- Balancing: Game development
+- Balancing: Increased loan payoff to 3 years
+- Balancing: Expo visitors
+
+v0.6.2.4
+- Fixed: Bug where month didn''t save/load
+- Fixed: Bug where project status wasn''t saved properly
+- Expanded trends to include interests
+- Fixed: bug with a game rating getting below 1
+- Made consoles reduce in technology/cost over time
+- Engines now retire when a console retires
+- Started building end of year awards
+- Fixed: Bug with engine/development bars going below 0
+- Fixed: Bug where the size of the development team wasn''t saving/loading
+- Balancing: Game development
+- Balancing: Engine development
+- Fixed: Bug where saving/loading games while developing didn''t resume development
+- Fixed: Bug with purchasing investments
+- Fixed: Bug with generating interest for investments
+
+
+v0.6.2.3
+- PC sales adjusted to match consoles in later years
+- Built art for expo booths
+- Added booths into expos
+- Fixed: Consoles saved and loaded twice
+- Adjusted contracts
+- Fixed: Splash screen remained shown if game was loaded
+- Adjust Expo costs
+
+v0.6.2.2
+- Working on reputation mechanic
+	o When engine is purchased
+	o When game is released based on rating
+	o When contract is complete
+	o When contract fails
+	o When game is cancelled
+- Trends are implemented and based off high quality games
+- Other company game sales will receive a boost if the genre is a hot trend
+- Player now receives a boost if the genre is a hot trend 
+- Player can set the trend if a game is high quality
+- Adjust PC sales so they''re similar to console to represent PC Gamers
