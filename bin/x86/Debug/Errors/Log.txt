@@ -1,0 +1,2 @@
+12/2/2015 9:41:47 PM - System.OverflowException: Arithmetic operation resulted in an overflow.
+   at dsTycoon.Module1.DrawChartsEng() in C:\Users\Ray\Dropbox\visual basic\GameDev\WindowsApplication1\Module1.vb:line 3549
